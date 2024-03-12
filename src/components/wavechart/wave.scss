@@ -1,0 +1,28 @@
+.lineChartContainer {
+  position: relative;
+  margin-top: 1rem;
+  .inner {
+    padding: 0 25px 0 25px;
+  }
+  .header {
+    border-top: 1px solid #f1f1f3;
+    display: flex;
+    padding: 1rem 0 0 0;
+    margin-bottom: -3rem;
+    justify-content: space-between;
+    align-items: center;
+    select {
+      width: 120px;
+      height: 45px;
+      border: 1px solid #000;
+      border-radius: 10px;
+      padding: 0 10px;
+    }
+  }
+  .chartWrapper {
+    position: absolute;
+    left: -13%;
+    // max-width: 420px;
+    // overflow: hidden;
+  }
+}

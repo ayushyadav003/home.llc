@@ -1,7 +1,10 @@
 .headerContainer {
-  display: flex;
-  justify-content: space-between;
   width: 100%;
+  div {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+  }
 }
 .sideBarWrapper {
   width: 100vw;

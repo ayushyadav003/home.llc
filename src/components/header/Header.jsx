@@ -7,8 +7,10 @@ function Header() {
   const [open, setOpen] = useState(false)
   return (
     <div className="headerContainer">
-      <img src="/images/hamburger.png" onClick={() => setOpen(true)} />
-      <img src="/images/search.png" />
+      <div>
+        <img src="/images/hamburger.png" onClick={() => setOpen(true)} />
+        <img src="/images/search.png" />
+      </div>
       <Drawer anchor={'left'} open={open}>
         <div className="sideBarWrapper">
           <div className="header">
