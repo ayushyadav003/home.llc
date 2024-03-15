@@ -26,7 +26,7 @@ function WavyChart() {
                 color: '#FF8900',
               },
             ]}
-            width={500}
+            width={600}
             height={300}
           />
         </div>

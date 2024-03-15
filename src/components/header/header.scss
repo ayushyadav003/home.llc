@@ -30,18 +30,25 @@
   }
   .sidebarContent {
     color: #fff;
+    margin: 6rem 0 0 2.3rem;
     h2 {
-      font-size: 45px;
+      font-size: 50px;
       font-weight: 700;
+      line-height: 60px;
+      letter-spacing: 0.44999998807907104px;
+      text-align: left;
     }
     div {
       display: flex;
       align-items: center;
+      margin-left: 1rem;
+      gap: 10px;
       p {
-        letter-spacing: 0.11999999731779099px;
-        line-height: 14px;
-        font-weight: 700;
+        margin: 0;
         font-size: 12px;
+        font-weight: 700;
+        line-height: 14px;
+        letter-spacing: 0.11999999731779099px;
       }
     }
   }
